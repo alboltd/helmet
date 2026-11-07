@@ -20,6 +20,9 @@
     "typescript": "^6.0.3",
     "typescript-eslint": "^8.72.1"
   },
+  "overrides": {
+    "minimatch": "11.0.1"
+  },
   "scripts": {
     "test:eslint": "eslint --cache .",
     "test:node": "tsx --test test/*.ts",
